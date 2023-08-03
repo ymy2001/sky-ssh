@@ -6,3 +6,16 @@ sky:
     database: sky_take_out
     username: root
     password: 550002
+  alioss:
+    bucket-name: ymyaccbucket
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    access-key-id: LTAI5tKWM2co3x52uFtRvsZy
+    access-key-secret: PvXajAMuJvQAYsNsBaySk5Qq6ZkH8G
+#mysql配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sky_take_out
+    username: root
+    password: 550002
+

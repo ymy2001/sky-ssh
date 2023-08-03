@@ -8,10 +8,10 @@ spring:
     allow-circular-references: true
 #mysql配置
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sky_take_out
-    username: root
-    password: 550002
+    driver-class-name: ${spring.datasource.driver-class-name}
+    url: ${spring.datasource.url}
+    username: ${spring.datasource.username}
+    password: ${spring.datasource.password}
 mybatis:
   #mapper配置文件
   mapper-locations: classpath:mapper/*.xml
@@ -36,3 +36,18 @@ sky:
     admin-ttl: 86400000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+  #阿里云配置文件
+  alioss:
+    access-key-id: ${sky.alioss.access-key-id}
+    endpoint: ${sky.alioss.endpoint}
+    access-key-secret: ${sky.alioss.access-key-secret}
+    bucket-name: ${sky.alioss.bucket-name}
+
+#阿里云配置文件
+aliyun:
+  oss:
+    file:
+      endpoint: https://oss-cn-beijing.aliyuncs.com
+      KeyId: LTAI5tKWM2co3x52uFtRvsZy
+      KeySecret: PvXajAMuJvQAYsNsBaySk5Qq6ZkH8G
+      bucketName: ymyaccbucket

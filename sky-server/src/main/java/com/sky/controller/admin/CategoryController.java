@@ -24,6 +24,9 @@ public class CategoryController {
 
     @Autowired
     private CategoryService categoryService;
+    /*
+    * 查询分类*/
+
 
     /**
      * 新增分类
