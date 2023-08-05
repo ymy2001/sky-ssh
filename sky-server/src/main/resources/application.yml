@@ -6,6 +6,12 @@ spring:
     active: dev
   main:
     allow-circular-references: true
+  #redis配置
+  redis:
+    host: ${sky.redis.host}
+    port: ${sky.redis.port}
+    password: ${sky.redis.password}
+    database: ${sky.redis.database}
 #mysql配置
   datasource:
     driver-class-name: ${spring.datasource.driver-class-name}
@@ -42,6 +48,8 @@ sky:
     endpoint: ${sky.alioss.endpoint}
     access-key-secret: ${sky.alioss.access-key-secret}
     bucket-name: ${sky.alioss.bucket-name}
+
+
 
 #阿里云配置文件
 aliyun:

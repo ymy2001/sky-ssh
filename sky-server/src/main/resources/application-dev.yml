@@ -6,6 +6,12 @@ sky:
     database: sky_take_out
     username: root
     password: 550002
+  #redis配置
+  redis:
+    host: localhost
+    port: 6379
+    password: 550002
+    database: 10
   alioss:
     bucket-name: ymyaccbucket
     endpoint: https://oss-cn-beijing.aliyuncs.com
@@ -18,4 +24,3 @@ spring:
     url: jdbc:mysql://localhost:3306/sky_take_out
     username: root
     password: 550002
-
