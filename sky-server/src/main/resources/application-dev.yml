@@ -17,6 +17,11 @@ sky:
     endpoint: https://oss-cn-beijing.aliyuncs.com
     access-key-id: LTAI5tKWM2co3x52uFtRvsZy
     access-key-secret: PvXajAMuJvQAYsNsBaySk5Qq6ZkH8G
+
+  #wechat
+  wechat:
+    appid: wxcb49c6e4c546c65f
+    secret: 186a52efd56a001bffd2b101d48d2361
 #mysql配置
 spring:
   datasource:
