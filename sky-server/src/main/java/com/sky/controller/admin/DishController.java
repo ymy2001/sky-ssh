@@ -63,9 +63,7 @@ public class DishController {
         dishServer.deleteBiatch(ids);
         //所有的菜品缓存数据清理
         Set keys = redisTemplate.keys("dish_");
-        if (keys != null) {
-            redisTemplate.delete(keys);
-        }
+        redisTemplate.delete(keys);
         return Result.success();
     }
     /*
@@ -86,9 +84,8 @@ public class DishController {
         dishServer.updateWithFlavor(dishDTO);
         //所有的菜品缓存数据清理
         Set keys = redisTemplate.keys("dish_");
-        if (keys != null) {
-            redisTemplate.delete(keys);
-        }
+        redisTemplate.delete(keys);
+
         return Result.success();
     }
     /*
