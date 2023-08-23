@@ -185,7 +185,7 @@ public class ReportServiceImpl implements ReportService {
         LocalDate end = LocalDate.now().minusDays(1);
         //查询概览运营数据，提供给Excel模板文件
         BusinessDataVO businessData = workspaceService.getBusinessData(LocalDateTime.of(begin,LocalTime.MIN), LocalDateTime.of(end, LocalTime.MAX));
-        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("template/运营数据报表模板.xlsx");
+        InputStream inputStream = this.getClass().getClassLoader().getResourceAsStream("F:\\Learn\\Java\\Project\\sky-take-out\\sky-server\\src\\main\\java\\com\\sky\\template\\运营数据报表模板.xlsx");
         try {
             //基于提供好的模板文件创建一个新的Excel表格对象
             XSSFWorkbook excel = new XSSFWorkbook(inputStream);
