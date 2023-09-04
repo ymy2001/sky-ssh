@@ -14,10 +14,10 @@ sky:
     password: 550002
     database: 10
   alioss:
-    bucket-name: ymyaccbucket
-    endpoint: https://oss-cn-beijing.aliyuncs.com
-    access-key-id: LTAI5tKWM2co3x52uFtRvsZy
-    access-key-secret: PvXajAMuJvQAYsNsBaySk5Qq6ZkH8G
+    bucket-name: 
+    endpoint: 
+    access-key-id: 
+    access-key-secret:
 
   #wechat
   wechat:
