@@ -72,6 +72,6 @@ aliyun:
   oss:
     file:
       endpoint: https://oss-cn-beijing.aliyuncs.com
-      KeyId: LTAI5tKWM2co3x52uFtRvsZy
-      KeySecret: PvXajAMuJvQAYsNsBaySk5Qq6ZkH8G
-      bucketName: ymyaccbucket
+      KeyId:
+      KeySecret: 
+      bucketName:
