@@ -49,5 +49,25 @@
             <groupId>com.github.wechatpay-apiv3</groupId>
             <artifactId>wechatpay-apache-httpclient</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.github.jalasoft</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jalasoft</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jalasoft</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.0.5</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.jalasoft</groupId>
+            <artifactId>HttpClient</artifactId>
+            <version>1.0.5</version>
+        </dependency>
     </dependencies>
 </project>
